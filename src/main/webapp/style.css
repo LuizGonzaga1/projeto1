@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap')
+	;
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em; /* 1em equivale a 16px ou fonte no tamanho 12, */
+	font-weight: 400;
+}
+
+h1 {
+	color: #66bbff;
+}
+
+/*Criando estilo para a seguinte classe: */
+.Botao1{
+		text-decoration: none; /*essa linha remove o estilo do link*/
+		background-color: #66bbff;
+		padding: 5px 10px 5px 10px; /*padding cria um espaçamento interno,  EM CIMA / A DIREITA / EM BAIXO / ESQUERDA */
+		color: #fff; /*Esta linha muda a cor da fonte*/
+		font-size: 1.2em; /*AUmentando em 20% o tamanho da fonte, em relacao a linha9*/
+		font-weight:700; /*Trouxemos essa familia 700 de fontes la do google fonts;*/
+		border-radius: 5px; /*Borda arredondada*/
+		border: 0; /*Para remover a sombra do botao*/
+		cursor: pointer; /* para deixar o formato da ponteira do mouse em maozinha*/
+}
+
+.Botao2{
+		text-decoration: none; /*essa linha remove o estilo do link*/
+		background-color: #d51213;
+		padding: 5px 10px 5px 10px; /*padding cria um espaçamento interno,  EM CIMA / A DIREITA / EM BAIXO / ESQUERDA */
+		color: #fff; /*Esta linha muda a cor da fonte*/
+		font-size: 1.2em; /*AUmentando em 20% o tamanho da fonte, em relacao a linha9*/
+		font-weight:700; /*Trouxemos essa familia 700 de fontes la do google fonts;*/
+		border-radius: 5px; /*Borda arredondada*/
+		
+}
+
+/*Criando estilo para a classe Caixa1*/
+
+.Caixa1 {
+	width: 320px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #66bbff;
+	border-radius: 5px;
+	
+}
+
+.Caixa2 {
+	width: 320px;
+	padding: 5px;
+	color: red; 
+	margin-bottom: 10px;
+	border: 1px solid #66bbff;
+	border-radius: 5px;
+	
+}
+
+#caixa3 {
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #ff0000;
+	
+}
+
+#tabela {
+	margin-top: 30px;
+	/* border-collapse: collapse; */
+	
+}
+
+#tabela th {
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: left;
+	background-color: #66bbff;
+	color: #fff;
+}
+
+#tabela td {
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+
+
+
+
+
+
